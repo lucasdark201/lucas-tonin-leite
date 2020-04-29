@@ -1,0 +1,5 @@
+anos = int(input("quantos anos você tem?"))
+meses= anos * 12
+minutos = anos * 365 * 1440
+segundos = anos*365*86400
+print("tirando os anos bissextos, a sua quantida de tempo vividos foi de {} meses, ou {} minutos, ou {} segundos.".format(meses,minutos,segundos))
